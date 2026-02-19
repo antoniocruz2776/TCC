@@ -1,0 +1,84 @@
+# ================================================
+# TCC - Sistema Preditivo de Renovações Enterprise
+# MBA Data Science e Analytics - USP/SP
+# Autor: Antonio Oliveira Cruz
+# Data: Fevereiro 2026
+# ================================================
+
+# Core Data Science
+pandas>=1.5.3
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.2.2
+xgboost>=1.7.4
+lightgbm>=3.3.5
+catboost>=1.1.1
+
+# Time Series
+prophet>=1.1.2
+statsmodels>=0.13.5
+
+# Deep Learning (opcional - para LSTM em projeção)
+# tensorflow>=2.12.0
+# keras>=2.12.0
+
+# Visualização
+matplotlib>=3.7.1
+seaborn>=0.12.2
+plotly>=5.14.0
+
+# Interpretabilidade de Modelos
+shap>=0.41.0
+lime>=0.2.0.1
+
+# Manipulação de Excel
+openpyxl>=3.1.2
+xlrd>=2.0.1
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=6.5.4
+ipykernel>=6.22.0
+ipywidgets>=8.0.6
+
+# Utilidades
+python-dateutil>=2.8.2
+tqdm>=4.65.0
+joblib>=1.2.0
+pyyaml>=6.0
+
+# Qualidade de Código (opcional)
+# black>=23.3.0
+# flake8>=6.0.0
+# pylint>=2.17.0
+
+# Testes (opcional)
+# pytest>=7.3.0
+# pytest-cov>=4.0.0
+
+# Exportação de Relatórios
+# reportlab>=3.6.13
+# jinja2>=3.1.2
+
+# ================================================
+# NOTAS DE INSTALAÇÃO:
+# ================================================
+#
+# Instalação básica:
+#   pip install -r requirements.txt
+#
+# Instalação sem GPU (mais leve):
+#   pip install -r requirements.txt --no-deps tensorflow-cpu
+#
+# Atualizar todas as bibliotecas:
+#   pip install --upgrade -r requirements.txt
+#
+# Verificar versões instaladas:
+#   pip list
+#
+# Criar arquivo de versões exatas (lock):
+#   pip freeze > requirements_lock.txt
+#
+# ================================================
